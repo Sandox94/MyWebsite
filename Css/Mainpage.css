@@ -1,0 +1,99 @@
+    
+/*head and paragraph spesification*/
+h1{
+    color: black;
+}
+h2{
+    color: blue;
+}
+
+body{
+    width: auto;
+    height: 100%;
+    margin: 0px;
+}
+
+/*Change position so it should not be fixed*/
+#footer{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 0px 16px;
+    margin-bottom: 0px;
+    border-color:orangered;
+    background-color:lightsalmon;
+    border-top: 2px solid #000;
+}
+
+/*Spesification for showing a black line
+hr{
+    border: auto;
+    height: 3px;
+    background: black; 
+}
+*/
+/*End*/
+
+
+/*Header navigation bar*/
+
+.topNav{
+    background-color: #333;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    text-align: center;
+    border-bottom: 2px solid #000;
+}
+.topNav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.topNav a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+/*Creates the body of columns */
+.column{
+    float: left;
+    width: 40%;
+}
+
+.columnTop{
+    float: left;
+    width: 20%;
+}
+
+/*Creates the row body*/
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Spesification for general right column*/
+.right{
+    background-color: lightgreen;
+    height: 350px;
+    margin: 7% 5% 5% 2%;
+    padding-left: 10px;
+}
+.left{
+    background-color: lightcoral;
+    height:350px;
+    width: 350px;
+    margin: 5% 5px 5% 10%;
+    border-radius: 50%;
+    text-align: center;
+}
+.leftColumnText{
+    padding-top: 30px;
+}
